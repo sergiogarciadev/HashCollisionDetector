@@ -17,6 +17,16 @@
   is rejected.
   
   I used some reference to implement this module. [5]
+  
+  ** Warning
+  
+  This solution needs more work, I only released it now to share the discovery
+  with the community and to receive comments.
+  
+  I will add more checks and check more data at input, it will be released
+  until the end of the week.
+  
+   Please send any comments to <sergio@ginx.com.br>.
 
 The vulnerability is better described in these links:
 
