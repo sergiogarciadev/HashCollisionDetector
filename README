@@ -1,0 +1,25 @@
+
+  ** The Problem
+
+  This is a simple IIS 7 module to avoid the zero day vulnerability which targets
+  string hash colisions discovered by Alexander "alech" Klink and Julian "zeri"
+  Wälde [1] which is described in a security advisory [2].
+
+  There was a security advisory [2] of Microsoft describing the problem and a
+  blog post explaing in details the problem [3].
+
+  ** The Proposed Solution
+ 
+  This solution consists in expection the request input before ASP .net and
+  detecting duplicated form post hashes.
+  
+  If the form post is "big" ann contains a duplicated hash then the request
+  is rejected.
+
+The vulnerability is better described in these links:
+
+  [1] http://events.ccc.de/congress/2011/Fahrplan/attachments/2007_28C3_Effective_DoS_on_web_application_platforms.pdf
+  [2] http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3414
+  [3] http://technet.microsoft.com/en-us/security/advisory/2659883
+  [4] http://blogs.technet.com/b/srd/archive/2011/12/27/more-information-about-the-december-2011-asp-net-vulnerability.aspx
+  
