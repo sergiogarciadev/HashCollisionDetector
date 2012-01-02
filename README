@@ -15,6 +15,8 @@
   
   If the form post is "big" ann contains a duplicated hash then the request
   is rejected.
+  
+  I used some reference to implement this module. [5]
 
 The vulnerability is better described in these links:
 
@@ -22,4 +24,5 @@ The vulnerability is better described in these links:
   [2] http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3414
   [3] http://technet.microsoft.com/en-us/security/advisory/2659883
   [4] http://blogs.technet.com/b/srd/archive/2011/12/27/more-information-about-the-december-2011-asp-net-vulnerability.aspx
+  [5] http://learn.iis.net/page.aspx/169/develop-a-native-cc-module-for-iis/
   
