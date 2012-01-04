@@ -1,4 +1,27 @@
 
+  *******************************************************************************
+  **
+  ** UPDATE: Microsoft has a Fix
+  **
+  
+  Microsoft has published a fix, using a diferent approch as used here.
+  They are limiting the number of post parameters to exactly 1000.
+  
+  To install this update, use Windows Update or visit the link belowe:
+  
+  http://technet.microsoft.com/en-us/security/bulletin/ms11-100.mspx
+  
+  
+  This project however can be used for study of the IIS Modules and for future
+  problems.
+  
+  
+  ********************************************************************************
+  
+  **
+  ** Old README
+  ** 
+  
   ** The Problem
 
   This is a simple IIS 7 module to avoid the zero day vulnerability which targets
