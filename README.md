@@ -26,7 +26,7 @@
 
   This is a simple IIS 7 module to avoid the zero day vulnerability which targets
   string hash colisions discovered by Alexander "alech" Klink and Julian "zeri"
-  Wälde [1] which is described in a security advisory [2].
+  WÃ¤lde [1] which is described in a security advisory [2].
 
   There was a security advisory [2] of Microsoft describing the problem and a
   blog post explaing in details the problem [3].
